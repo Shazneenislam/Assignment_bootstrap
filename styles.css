@@ -1,0 +1,41 @@
+/* Add your custom CSS here */
+
+/* Example of CSS animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .card {
+    animation: fadeIn 1s ease-out; /* Apply animation to cards */
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Dark text color */
+  }
+
+  header {
+    margin-bottom: 20px;
+  }
+
+  #image-slider {
+    margin-bottom: 40px;
+  }
+
+  .card {
+    border: 1px solid #ccc; /* Gray border for cards */
+    border-radius: 10px; /* Rounded corners for cards */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+  }
+
+  .card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect on hover */
+  }
+
+  footer {
+    background-color: #343a40; /* Dark background color for footer */
+    color: #fff; /* Light text color for footer */
+    padding: 20px 0; /* Add some padding to footer */
+  }  
